@@ -1,0 +1,107 @@
+.{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    background-color: #bd9ce3;
+    color: #333;
+}
+.container{
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    padding: 20px 0;
+}
+header{
+    background-color: #403434;
+    color: #d0c6c6;
+    padding: 20px 0;
+}
+header h1{
+    margin: 0;
+    text-align: left;
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin-top: 10px;
+}
+nav ul li{
+    margin: 0 15px;
+}
+nav ul li a{
+    color:#fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+.hero{
+    background:linear-gradient(120deg #00bcd4,#2196f3);
+    color: rgb(58, 44, 44);
+    padding: 60px 20px;
+    text-align: center;
+}
+.About,.Skills,.progects,.contact{
+    padding: 50px 0;
+    background-color: #bcbbbb;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #b5b4b4;
+}
+.Skills ul.Skills-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    list-style: none;
+    padding: 0;
+}
+.Skills ul.Skills-list li{
+    background-color: white;
+    color: white;
+    padding: 10px 20px;
+    margin: 10px;
+    border-radius: 20px;
+}
+.Profile.{
+    background-color:#b1bbc2;
+    gap: 10px;
+    width: 250px;
+    height: 250px;
+    background-image: url(IMG_0016.jpg);
+}
+.contact-form{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    margin-top: 20px;
+}
+.contact-form input,
+.contact-form textarea{
+    padding: 10px;
+    border: 1px solid #aaa;
+    border-radius: 5px;
+    width: 100%;
+}
+.contact-form button{
+    text-align: center;
+    padding: 10px;
+    background-color: #2196f3;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.contact-form button:hover{
+    background-color: #1976d2;
+}
+footer{
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 10px;
+    
+}
